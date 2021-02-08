@@ -1,0 +1,19 @@
+{
+  "name": "block-explorer",
+  "version": "1.0.0",
+  "description": "A simple Ethereum Block Explorer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jacob San Juan",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "ethers": "^5.0.29",
+    "parceljs": "0.0.1"
+  },
+  "devDependencies": {
+    "sass": "^1.32.6"
+  }
+}

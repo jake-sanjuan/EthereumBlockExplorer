@@ -1,0 +1,64 @@
+body {
+  font-family: 'Muli', sans-serif;
+  font-weight: 300;
+  background-color: #F1FAEE;
+}
+
+.address {
+  font-size: .75em;
+}
+
+.components {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  > div {
+    text-align: center;
+    float: none;
+    width: 45%;
+    height: 200px;
+    display: inline-block;
+    margin: 10px;
+    background-color: #457B9D;
+    border-radius: 20px 20px;
+    color: #F1FAEE;
+
+    h1 {
+      font-size: 2em;
+    }
+
+    button {
+      border-radius: 20px;
+      outline: none;
+      padding: 5px 10px 5px 10px;
+    }
+
+    button:hover {
+      background-color: #1D3557;
+      color: #F1FAEE;
+    }
+
+    input {
+      border-radius: 20px;
+      outline: none;
+      padding: 5px 10px 5px 10px;
+      background-color: #F1FAEE;
+    }
+  }
+}
+
+.header {
+  background-color: #1D3557;
+  border-radius: 20px 20px;
+
+  > h1 {
+    color: #F1FAEE;
+    text-align: center;
+    padding: 50px 50px;
+  }
+}
+
+.disclaimer {
+  font-size: .5em;
+}

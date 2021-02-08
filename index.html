@@ -1,0 +1,38 @@
+<html>
+  <head>
+    <title>Ethereum Block Explorer</title>
+    <link rel="stylesheet" href="styles.scss">
+  </head>
+  <body>
+    <header class="header">
+      <h1>Ethereum Block Explorer</h1>
+    </header>
+    </div>
+    <div class="components">
+      <div class="balance">
+        <h1>Find Balances Here</h1>
+        <input type="text" id="ethereum-address" placeholder="Ethereum Address">
+        <button type="button" id="get-balance">Get Balance</button>
+        <p id="wallet-balance">0 Ether</p>
+      </div>
+      <div class="block">
+        <h1>Current Block Number</h1>
+        <p id="block-number">"Loading latest block..."</p>
+      </div>
+      <div class="gas">
+        <h1>Current Gas Prices</h1>
+        <p id="gas-prices">"Calculating current gas prices..."</p>
+        <p class="disclaimer">This is an estimated value and may
+        not reflect true gas prices</p>
+      </div>
+      <div class="nft-price">
+        <h1>Get NFT Address</h1>
+        <input type="text" id="contract-address" placeholder="Contract Address">
+        <input type="text" id="token-id" placeholder="Token ID">
+        <button type="button" id="get-nft">Search NFT</button>
+        <p id="nft-price" class="address">Token holder address will appear here.</p>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
