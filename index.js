@@ -1,7 +1,7 @@
 const ethers = require('ethers');
 const axios = require('axios');
 
-const API_KEY = "UJUKYJ5RGJEK71FTESABX5GB5UD8IQB8Z6"
+const API_KEY = // YOUR ETHERSCAN API KEY HERE
 
 const provider = new ethers.providers.EtherscanProvider('homestead');
 
